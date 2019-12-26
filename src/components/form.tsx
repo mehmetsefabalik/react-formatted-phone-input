@@ -11,7 +11,6 @@ const Form: FunctionComponent<IProps> = () => {
   const [success, setSuccess] = useState(false);
 
   const onPhoneChange = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log("phone", e.target.value)
     setPhone(e.target.value);
   };
 
